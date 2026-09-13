@@ -75,3 +75,4 @@ You can use the capture engine directly from the terminal without the UI:
   - `pipewire_capture.rs`: Handles virtual sinks and audio redirection
   - `spotify_dbus.rs`: MPRIS controls for the Spotify client
   - `capture.rs`: The main recording orchestrator
+# SpotCapture
