@@ -1,0 +1,15 @@
+/target/
+/build/
+/.toolchain/
+/.cargo-home/
+/captures/
+/test-output/
+*.partial
+.env
+tokens.json
+
+# Raw test/binary artifacts
+*.bin
+44100
+raw.bin
+
