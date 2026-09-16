@@ -38,7 +38,7 @@ Because it captures the system audio stream using a virtual "null sink", the rec
 
 ## How It Works
 
-SpotCapture v2 uses a real-time system audio capture approach:
+SpotCapture v1.0.0 uses a real-time system audio capture approach:
 1. **D-Bus Control:** SpotCapture talks to Spotify via MPRIS D-Bus. When you paste a link, it tells Spotify to open that specific track and play it from the beginning.
 2. **Virtual Sink:** It creates a temporary PipeWire "null sink" (a virtual speaker that makes no sound).
 3. **Redirection:** It routes Spotify's audio output exclusively to this null sink.
